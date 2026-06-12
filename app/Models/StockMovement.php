@@ -20,6 +20,6 @@ class StockMovement extends Model
         return match($this->type) {
             'in' => 'Entrée',
             'out' => 'Sortie',
-        }
+        };
     }
 }
